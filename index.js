@@ -43,7 +43,7 @@ app.post('/calculate-distance', async (req, res) => {
 
   console.log("User pincode : ",userPincode)
   
-  shopPincode=380026
+  shopPincode=140308
 
   try {
     const userLocation = await getLocationFromPincode(userPincode);
